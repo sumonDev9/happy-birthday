@@ -15,10 +15,10 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById("minute").innerText = minutes;
         document.getElementById("second").innerText = seconds;
 
-        if (distance < 0) {
-            clearInterval(interval);
-            document.querySelector('.countdown').innerText = "Happy Birthday!";
-        }
+        // if (distance < 0) {
+        //     clearInterval(interval);
+        //     document.querySelector('.countdown').innerText = "Happy Birthday!";
+        // }
     };
 
     const interval = setInterval(updateCountdown, 1000);
